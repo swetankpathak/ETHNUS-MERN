@@ -1,0 +1,29 @@
+function valid(){
+    if(document.getElementById('fname').value===undefined){
+        document.getElementById('fname').innerHTML="POOR";
+    }
+    if(document.getElementById('lname').value===undefined){
+        document.getElementById('lname').innerHTML="POOR";
+    }
+    if(document.getElementById('email').value===undefined){
+        document.getElementById('email').innerHTML="POOR";
+    }
+    if(document.getElementById('pwd').value===undefined){
+        document.getElementById('pwd').innerHTML="POOR";
+    }
+    if(document.getElementById('re-pwd').value===undefined){
+        document.getElementById('re-pwd').innerHTML="POOR OR MISMATCH";
+    }
+    if(document.getElementById('age').value===undefined){
+        document.getElementById('age').innerHTML="POOR";
+    }
+    if(document.getElementById('ph-num').value===undefined){
+        document.getElementById('ph-num').innerHTML="POOR";
+    }
+    if(document.getElementById('address').value===undefined){
+        document.getElementById('address').innerHTML="POOR";
+    }
+    if(document.getElementById('state').value===undefined){
+        document.getElementById('state').innerHTML="POOR";
+    }
+}
